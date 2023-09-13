@@ -37,7 +37,7 @@ class ExchangedAmount
     {
         foreach ($xml->Valute as $currency) {
             if ($currency->CharCode == $currencyAbbr) {
-                return (float)str_replace(',', '.', $currency->Value);
+                return (float)str_replace(',', '.', (string)$currency->Value);
             }
         }
 
