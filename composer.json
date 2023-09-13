@@ -1,0 +1,28 @@
+{
+  "name": "areznichenko/exchange-sberbank",
+  "description": "Sberbank currency converter. Testing/studying purposes (used for packagist)",
+  "minimum-stability": "stable",
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://github.com/AREZA13/exchange-sberbank",
+  "authors": [
+    {
+      "name": "Anatoliy Reznichenko",
+      "email": "arezasoft@icloud.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "ext-simplexml": "*"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:AREZA13/exchange-sberbank"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "ExchangeSberbank\\": "src/"
+    }
+  }
+}
